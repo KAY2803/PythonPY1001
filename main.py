@@ -1,9 +1,21 @@
-print("5 больше 10?", 5 > 10)
-print("5 равно 10?", 5 == 10)
-print("5 неравно 5", 5 != 5)
+if __name__ == "__main__":
 
-print()
+    s = list(range(1, 11))
 
-print("5 меньше или равно 10?", 5 <= 10)
-print("5 меньше или равно 5?", 5 <= 5)
-print("5 равно 5?", 5 == 5)
+    # предположим, что первый элемент в нашем списке максимальный
+    max_value_index = 0
+    max_value = s[max_value_index]
+    A = s[0]
+
+    for index, value in enumerate(s):
+        if value >= max_value:
+            max_value = value
+            max_value_index = index
+    s[0] = value
+    s[index] = A
+    print(s)
+
+
+
+    # Write your solution here
+    pass
