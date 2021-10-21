@@ -1,0 +1,35 @@
+type: output
+files:
+- name: tests/output.txt
+  visible: false
+  learner_created: false
+- name: main.py
+  visible: true
+  placeholders:
+  - offset: 291
+    length: 34
+    placeholder_text: '# TODO Распечатать строку лесенкой'
+    initial_state:
+      length: 34
+      offset: 164
+    initialized_from_dependency: false
+    selected: true
+    status: Failed
+    encrypted_possible_answer: '...'
+  text: |
+    if __name__ == "__main__":
+        # постарайтесь не использовать "магические" числа,
+        # а по возможности дать переменным осмысленные названия и использовать их
+        # TODO Распечатать строку лесенкой
+  learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+status: Failed
+feedback:
+  message: Incorrect
+  time: Sun, 17 Oct 2021 12:03:53 UTC
+  actual: "       H\n        e\n         l\n          l\n           o\n          \
+    \  ,\n              \n              w\n               o\n                r\n \
+    \                l\n                  d\n"
+record: -1
