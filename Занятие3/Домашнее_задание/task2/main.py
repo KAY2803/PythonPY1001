@@ -6,7 +6,7 @@ def check_string(str_):
             return False
     return True
 
-
+print(check_string("100101"))
 if __name__ == "__main__":
     # Write your solution here
     pass

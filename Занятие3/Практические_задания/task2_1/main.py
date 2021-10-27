@@ -1,6 +1,11 @@
 def pow_func(base, pow_=2):
     # base ** pow_ -> реализовать через цикл while
-    ...  # TODO
+    result = 1
+    while pow_ > 0:
+        result *= base
+        pow_ -= 1
+
+    return result
 
 
 if __name__ == "__main__":
