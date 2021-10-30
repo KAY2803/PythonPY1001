@@ -24,7 +24,6 @@ if __name__ == "__main__":
     def find_word(x):
         # поиск самого длинного слова в строке слов
         longest = max(x.split())
-        print(x.split())
         return longest
 
     print('------')
