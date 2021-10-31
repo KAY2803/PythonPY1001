@@ -1,7 +1,7 @@
 if __name__ == "__main__":
 
     def same_digits(n):
-        # проверяет состоит ли чило из одинаковых цифр
+        # проверяет состоит ли число из одинаковых цифр
         digits = [int(d) for d in str(n)]
 
         if len(set(digits)) == 1:
@@ -9,6 +9,8 @@ if __name__ == "__main__":
         else:
             return "Не все цифры числа одинаковые"
 
-    print(same_digits(8764))
+    print(same_digits(555555))
+
+
 
 

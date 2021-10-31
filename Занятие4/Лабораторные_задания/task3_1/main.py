@@ -40,5 +40,4 @@ if __name__ == "__main__":
     from collections import Counter
     main_str = main_str.lower()
     list_letter = [i for i in str(main_str) if i.isalpha()]
-    print(collections.Counter(list_letter))
-    
+    print(Counter(list_letter))
