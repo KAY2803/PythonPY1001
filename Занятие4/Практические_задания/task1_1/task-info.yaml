@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 152
-    length: 28
+    length: 26
     placeholder_text: '[]  # TODO записать list comprehension'
     initial_state:
       length: 38
